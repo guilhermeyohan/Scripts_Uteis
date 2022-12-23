@@ -21,3 +21,4 @@ if (isset($_POST['calculate'])) {
 function calculate($input) {
   return eval('return ' . $input . ';');
 }
+
